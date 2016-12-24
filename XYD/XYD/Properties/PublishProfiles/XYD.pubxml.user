@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>G:\ASPXYD\XYD</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="1.html">
+      <publishTime>12/20/2016 11:16:20</publishTime>
+    </File>
+    <File Include="bin/XYD.dll">
+      <publishTime>12/22/2016 20:55:09</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap-theme.css">
+      <publishTime>12/07/2016 21:26:50</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap-theme.css.map">
+      <publishTime>12/07/2016 21:26:50</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap-theme.min.css">
+      <publishTime>12/07/2016 21:26:50</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap.css">
+      <publishTime>12/07/2016 21:26:50</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap.css.map">
+      <publishTime>12/07/2016 21:26:50</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap.min.css">
+      <publishTime>12/07/2016 21:26:50</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>12/07/2016 21:27:03</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>12/07/2016 21:27:03</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>12/07/2016 21:27:03</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>12/07/2016 21:27:03</publishTime>
+    </File>
+    <File Include="bootstrap/js/bootstrap.js">
+      <publishTime>12/07/2016 21:27:15</publishTime>
+    </File>
+    <File Include="bootstrap/js/bootstrap.min.js">
+      <publishTime>12/07/2016 21:27:15</publishTime>
+    </File>
+    <File Include="bootstrap/js/npm.js">
+      <publishTime>12/07/2016 21:27:15</publishTime>
+    </File>
+    <File Include="css/demo.css">
+      <publishTime>12/08/2016 12:36:59</publishTime>
+    </File>
+    <File Include="css/indexcss.css">
+      <publishTime>12/22/2016 11:40:17</publishTime>
+    </File>
+    <File Include="css/logincss.css">
+      <publishTime>12/11/2016 12:02:46</publishTime>
+    </File>
+    <File Include="css/readbook.css">
+      <publishTime>12/21/2016 19:55:17</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>12/08/2016 12:36:59</publishTime>
+    </File>
+    <File Include="css/writercss.css">
+      <publishTime>12/17/2016 19:49:27</publishTime>
+    </File>
+    <File Include="exit.aspx">
+      <publishTime>12/11/2016 14:28:58</publishTime>
+    </File>
+    <File Include="houtaidenglu.aspx">
+      <publishTime>12/21/2016 19:44:04</publishTime>
+    </File>
+    <File Include="houtaiguanli.aspx">
+      <publishTime>12/21/2016 19:44:04</publishTime>
+    </File>
+    <File Include="imgs/beijing.png">
+      <publishTime>12/07/2016 21:28:11</publishTime>
+    </File>
+    <File Include="imgs/book/bc.jpg">
+      <publishTime>12/07/2016 21:27:59</publishTime>
+    </File>
+    <File Include="imgs/book/hlm.jpg">
+      <publishTime>12/07/2016 21:27:59</publishTime>
+    </File>
+    <File Include="imgs/book/hxsz.jpg">
+      <publishTime>12/07/2016 21:27:59</publishTime>
+    </File>
+    <File Include="imgs/book/ja.jpg">
+      <publishTime>12/07/2016 21:27:59</publishTime>
+    </File>
+    <File Include="imgs/book/jdsbj.jpg">
+      <publishTime>12/07/2016 21:27:59</publishTime>
+    </File>
+    <File Include="imgs/book/sgyy.jpg">
+      <publishTime>12/07/2016 21:27:59</publishTime>
+    </File>
+    <File Include="imgs/book/shz.jpg">
+      <publishTime>12/07/2016 21:27:59</publishTime>
+    </File>
+    <File Include="imgs/book/tlbb.jpg">
+      <publishTime>12/07/2016 21:27:59</publishTime>
+    </File>
+    <File Include="imgs/book/whkl.jpg">
+      <publishTime>12/07/2016 21:27:59</publishTime>
+    </File>
+    <File Include="imgs/book/wwyx.jpg">
+      <publishTime>12/07/2016 21:27:59</publishTime>
+    </File>
+    <File Include="imgs/book/wxfs.jpg">
+      <publishTime>12/07/2016 21:27:59</publishTime>
+    </File>
+    <File Include="imgs/book/xajh.jpg">
+      <publishTime>12/07/2016 21:27:59</publishTime>
+    </File>
+    <File Include="imgs/book/xyj.jpg">
+      <publishTime>12/07/2016 21:27:59</publishTime>
+    </File>
+    <File Include="imgs/book/xyr.jpg">
+      <publishTime>12/07/2016 21:27:59</publishTime>
+    </File>
+    <File Include="imgs/book/zll.jpg">
+      <publishTime>12/07/2016 21:27:59</publishTime>
+    </File>
+    <File Include="imgs/left.png">
+      <publishTime>12/07/2016 21:28:11</publishTime>
+    </File>
+    <File Include="imgs/right.png">
+      <publishTime>12/07/2016 21:28:11</publishTime>
+    </File>
+    <File Include="imgs/xyd.png">
+      <publishTime>12/07/2016 21:28:11</publishTime>
+    </File>
+    <File Include="imgs/xydwriterlogin.png">
+      <publishTime>12/13/2016 13:25:27</publishTime>
+    </File>
+    <File Include="imgs/xydzpxq.png">
+      <publishTime>12/20/2016 11:35:14</publishTime>
+    </File>
+    <File Include="imgs/zuocd.png">
+      <publishTime>12/07/2016 21:28:11</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>12/22/2016 20:43:02</publishTime>
+    </File>
+    <File Include="InsertBook.aspx">
+      <publishTime>12/21/2016 19:54:27</publishTime>
+    </File>
+    <File Include="InsertCpter.aspx">
+      <publishTime>12/20/2016 18:28:41</publishTime>
+    </File>
+    <File Include="js/indexjs.js">
+      <publishTime>12/18/2016 20:25:48</publishTime>
+    </File>
+    <File Include="js/jquery-3.1.0.min.js">
+      <publishTime>12/07/2016 21:28:31</publishTime>
+    </File>
+    <File Include="js/jquery.gallery.js">
+      <publishTime>12/07/2016 21:28:31</publishTime>
+    </File>
+    <File Include="js/modernizr.custom.53451.js">
+      <publishTime>12/07/2016 21:28:31</publishTime>
+    </File>
+    <File Include="js/s.js">
+      <publishTime>12/07/2016 21:28:31</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>12/11/2016 12:14:43</publishTime>
+    </File>
+    <File Include="readbook.aspx">
+      <publishTime>12/20/2016 11:36:05</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/21/2016 22:48:22</publishTime>
+    </File>
+    <File Include="writer.aspx">
+      <publishTime>12/21/2016 19:49:13</publishTime>
+    </File>
+    <File Include="writerlogin.aspx">
+      <publishTime>12/15/2016 11:07:16</publishTime>
+    </File>
+    <File Include="XHXY.aspx">
+      <publishTime>12/21/2016 20:35:21</publishTime>
+    </File>
+    <File Include="zhengwen.aspx">
+      <publishTime>12/22/2016 11:47:34</publishTime>
+    </File>
+    <File Include="作品管理.aspx">
+      <publishTime>12/21/2016 19:37:35</publishTime>
+    </File>
+    <File Include="作家管理.aspx">
+      <publishTime>12/21/2016 19:25:51</publishTime>
+    </File>
+    <File Include="读者管理.aspx">
+      <publishTime>12/21/2016 19:20:29</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

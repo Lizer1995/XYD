@@ -1,0 +1,156 @@
+.pink{
+	background-color:#ffcc99;
+}
+.orange{
+	background-color:#cc3300;
+}
+table{
+	width: 100%;
+	cellpadding:0;
+	position: absolute;
+	z-index: 1;
+	padding: 0;
+}
+#imgbg{
+	width:100%;
+	position:absolute;
+	z-index:0;
+}
+#imgxyd{
+	width:25%;
+}
+#zuocd{
+	position:fixed;
+    padding:0.5em;
+    left:4.5em;
+	top:20em;
+    width:6em;
+    height:10em;
+    background-color:#ffcc99;
+    border-top:solid #cc3300 8px;
+    border-radius:8px;
+}
+#myul{
+    list-style-type:none;
+}
+.spansytle1{
+	color:#cc3300;
+	font-weight:bold;
+}
+.spansytle2{
+	color:#cc3300;
+	font-weight:normal;
+	font-style:italic;
+	text-decoration:underline
+}
+iframe{
+	width:100%;
+	height:500px;
+}
+.imgcss{
+	margin:1em;
+	border:solid 2px #cc3300;
+}
+.myDataList{
+    width:14em;
+}	
+.bottomgrey{
+    border-bottom:solid #cccccc 4px;
+}
+.myDataLista
+{
+    width:13em;
+}
+.td1{
+    border-top:6px solid #cc3300;
+    background-color:#ffffff;
+}
+ .lb1{
+        float:left;
+        margin-left:23%;     
+}
+ .lb2{
+        float:left;
+        margin-left:43%
+}
+ .lb3{
+        float:left;
+        margin-left:63%
+}
+
+@media screen and (max-width:600px){
+    body{
+        font-size:x-small;
+    }
+    .bottomgrey{
+        border-bottom:solid #cccccc 0;
+   }
+    .td1{
+        height:21em;
+        vertical-align:top
+    }
+    .lb1{
+        float:left;
+        margin-left:2%;
+    }
+    .lb2{
+        float:left;
+        margin-left:35%
+    }
+    .lb3{
+        float:left;
+        margin-left:70%
+    }
+    #phonediv{
+        text-align:center;
+
+        column-gap: 2px;
+        -webkit-column-gap:2px;
+        -o-column-gap:2px;
+        -moz-column-gap:2px;
+        -ms-column-gap:2px;
+
+        column-count: 3;
+        -webkit-column-count:3;
+        -o-column-count:3;
+        -moz-column-count:3;
+        -ms-column-count:3;
+    }
+    .myDataLista
+    {
+        width:8em;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:960px){
+    body{
+        font-size:x-small;
+    }
+    .bottomgrey{
+        border-bottom:solid #cccccc 0;
+   }
+    .td1{
+        height:21em;
+        vertical-align:top
+    }
+    .lb1{
+        float:left;
+        margin-left:25%;
+    }
+    .lb2{
+        float:left;
+        margin-left:45%
+    }
+    .lb3{
+        float:left;
+        margin-left:65%
+    }
+    #phonediv{
+        column-gap: 2px;
+        column-count: 3;
+    }
+    .myDataLista
+    {
+        width:8em;
+    }
+}

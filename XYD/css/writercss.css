@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+.pink{
+	background-color:#ffcc99;
+}
+.orange{
+	background-color:#cc3300;
+}
+#div0{
+	background-color:#E9E2E2;
+	height:auto;
+	padding-top:9em;
+	padding-bottom:1em;
+}
+#div2{
+	border:#cccccc solid 2.5px;
+	padding:0px;
+}
+#div4{
+	margin:0px;
+	height:auto;
+	background-color:#ffffff;
+}
+#div3{
+	height:4em;
+	background-color:#ffcc99;
+	text-align:center;
+	line-height:4em;
+}
+footer{
+	background:#E9E2E2;
+	text-align:center;
+	padding:1em;
+}

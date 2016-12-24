@@ -1,0 +1,6 @@
+G:\ASPXYD\XYD\XYD\bin\XYD.dll.config
+G:\ASPXYD\XYD\XYD\bin\XYD.dll
+G:\ASPXYD\XYD\XYD\bin\XYD.pdb
+G:\ASPXYD\XYD\XYD\obj\Debug\XYD.csprojResolveAssemblyReference.cache
+G:\ASPXYD\XYD\XYD\obj\Debug\XYD.dll
+G:\ASPXYD\XYD\XYD\obj\Debug\XYD.pdb

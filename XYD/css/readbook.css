@@ -1,0 +1,44 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{
+    background-color:#E9E2E2;
+}
+.pink{
+	background-color:#ffcc99;
+	width:100%;
+}
+.orange{
+	background-color:#cc3300;
+	width:100%;
+	height:10px;
+}
+.div2{
+    background-color:#ffffff;
+	border-left:#cc3300 solid 4px;
+	border-right:#cc3300 solid 4px;
+    border-bottom:#cc3300 solid 4px;
+	height:auto;
+}
+footer{
+    background: #E9E2E2;
+    text-align: center;
+    padding: 1em;
+}
+
+.mytext{
+    width:100%;
+    height:40em;
+}
+
+@media screen and (min-width:600px) and (max-width:960px) {
+    .mytext{
+        width:100%;
+        height:60em;
+    }
+}
+@media screen and (max-width:600px) {
+    .mytext{
+        width:100%;
+        height:28em;
+    }
+}

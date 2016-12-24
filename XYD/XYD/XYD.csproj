@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0291676C-3709-449D-AAB3-CF7E5E56DAA6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XYD</RootNamespace>
+    <AssemblyName>XYD</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="bootstrap\css\bootstrap.css.map" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="css\readbook.css" />
+    <Content Include="css\writercss.css" />
+    <Content Include="houtaidenglu.aspx" />
+    <Content Include="houtaiguanli.aspx" />
+    <Content Include="imgs\xydwriterlogin.png" />
+    <Content Include="imgs\xydzpxq.png" />
+    <Content Include="InsertBook.aspx" />
+    <Content Include="InsertCpter.aspx" />
+    <Content Include="readbook.aspx" />
+    <Content Include="writer.aspx" />
+    <Content Include="writerlogin.aspx" />
+    <Content Include="XHXY.aspx" />
+    <Content Include="zhengwen.aspx" />
+    <Content Include="作品管理.aspx" />
+    <Content Include="作家管理.aspx" />
+    <Content Include="读者管理.aspx" />
+    <None Include="Properties\PublishProfiles\XYD.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.html" />
+    <Content Include="bootstrap\css\bootstrap-theme.css" />
+    <Content Include="bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="css\logincss.css" />
+    <Content Include="exit.aspx" />
+    <Content Include="js\indexjs.js" />
+    <Content Include="bootstrap\js\npm.js" />
+    <Content Include="css\demo.css" />
+    <Content Include="css\indexcss.css" />
+    <Content Include="css\style.css" />
+    <Content Include="imgs\beijing.png" />
+    <Content Include="imgs\book\bc.jpg" />
+    <Content Include="imgs\book\hlm.jpg" />
+    <Content Include="imgs\book\hxsz.jpg" />
+    <Content Include="imgs\book\ja.jpg" />
+    <Content Include="imgs\book\jdsbj.jpg" />
+    <Content Include="imgs\book\sgyy.jpg" />
+    <Content Include="imgs\book\shz.jpg" />
+    <Content Include="imgs\book\tlbb.jpg" />
+    <Content Include="imgs\book\whkl.jpg" />
+    <Content Include="imgs\book\wwyx.jpg" />
+    <Content Include="imgs\book\wxfs.jpg" />
+    <Content Include="imgs\book\xajh.jpg" />
+    <Content Include="imgs\book\xyj.jpg" />
+    <Content Include="imgs\book\xyr.jpg" />
+    <Content Include="imgs\book\zll.jpg" />
+    <Content Include="imgs\left.png" />
+    <Content Include="imgs\right.png" />
+    <Content Include="imgs\xyd.png" />
+    <Content Include="imgs\zuocd.png" />
+    <Content Include="index.aspx" />
+    <Content Include="js\jquery-3.1.0.min.js" />
+    <Content Include="js\jquery.gallery.js" />
+    <Content Include="js\modernizr.custom.53451.js" />
+    <Content Include="js\s.js" />
+    <Content Include="login.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="exit.aspx.cs">
+      <DependentUpon>exit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="exit.aspx.designer.cs">
+      <DependentUpon>exit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="houtaidenglu.aspx.cs">
+      <DependentUpon>houtaidenglu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="houtaidenglu.aspx.designer.cs">
+      <DependentUpon>houtaidenglu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="houtaiguanli.aspx.cs">
+      <DependentUpon>houtaiguanli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="houtaiguanli.aspx.designer.cs">
+      <DependentUpon>houtaiguanli.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsertBook.aspx.cs">
+      <DependentUpon>InsertBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsertBook.aspx.designer.cs">
+      <DependentUpon>InsertBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsertCpter.aspx.cs">
+      <DependentUpon>InsertCpter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsertCpter.aspx.designer.cs">
+      <DependentUpon>InsertCpter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="readbook.aspx.cs">
+      <DependentUpon>readbook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="readbook.aspx.designer.cs">
+      <DependentUpon>readbook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="writer.aspx.cs">
+      <DependentUpon>writer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="writer.aspx.designer.cs">
+      <DependentUpon>writer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="writerlogin.aspx.cs">
+      <DependentUpon>writerlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="writerlogin.aspx.designer.cs">
+      <DependentUpon>writerlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XHXY.aspx.cs">
+      <DependentUpon>XHXY.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XHXY.aspx.designer.cs">
+      <DependentUpon>XHXY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zhengwen.aspx.cs">
+      <DependentUpon>zhengwen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zhengwen.aspx.designer.cs">
+      <DependentUpon>zhengwen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="作品管理.aspx.cs">
+      <DependentUpon>作品管理.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="作品管理.aspx.designer.cs">
+      <DependentUpon>作品管理.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="作家管理.aspx.cs">
+      <DependentUpon>作家管理.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="作家管理.aspx.designer.cs">
+      <DependentUpon>作家管理.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="读者管理.aspx.cs">
+      <DependentUpon>读者管理.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="读者管理.aspx.designer.cs">
+      <DependentUpon>读者管理.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>17396</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:17396/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
